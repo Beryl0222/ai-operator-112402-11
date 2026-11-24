@@ -145,5 +145,28 @@
   "fillInterval": [
     478,
     490
+  ],
+  "alertThresholds": [
+    {
+      "type": 0,
+      "t": 474,
+      "instant": 0.085,
+      "horizon": 2,
+      "risk": 0.11
+    },
+    {
+      "type": 0,
+      "t": 487.25,
+      "instant": 0.121,
+      "horizon": 1,
+      "risk": 0.07
+    },
+    {
+      "type": 2,
+      "t": 479,
+      "instant": 0.11,
+      "horizon": 4,
+      "risk": 0.18
+    }
   ]
 }

@@ -12,3 +12,5 @@ export function eventPage(page) {
 export function hazardCoefficients(target, source) {
   return Float64Array.from({length:data.decay.length},(_,k)=>(1+(target*13+source*187+k)%11)/128);
 }
+
+export function fillPage() { return [data.corrected, data.linked]; }
